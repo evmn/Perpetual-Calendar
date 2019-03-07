@@ -3,8 +3,8 @@ import sqlite3
 #tiangan = '甲乙丙丁戊己庚辛壬癸'
 #dizhi = '子丑寅卯辰巳午未申酉戌亥'
 #公元元年是猴年, 1984年为甲子年
-#animals = ['\N{Mouse}', '\N{Ox}', '\N{Tiger}','\N{Rabbit}','
-#		\N{Dragon}','\N{Snake}', '\N{Horse}','\N{Sheep}',
+#animals = ['\N{Mouse}', '\N{Ox}', '\N{Tiger}','\N{Rabbit}',
+#		'\N{Dragon}','\N{Snake}', '\N{Horse}','\N{Sheep}',
 #		'\N{Monkey}','\N{Chicken}','\N{Dog}','\N{Pig}']
 
 conn = sqlite3.connect('calendar.db')
